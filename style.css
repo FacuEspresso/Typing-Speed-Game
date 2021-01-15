@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFBB98;
+    min-height: 100vh;
+    
+}
+
+.mainBox {
+    background-color: #7d8e95;
+    color: white;
+    height: 250px;
+    width: 500px;
+    border-radius: 0px;
+    padding: 1rem;
+
+    font-size: 60px;
+    text-align: center ;
+
+    position: relative;
+
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#input {
+    background-color: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+
+    width: 500px;
+    height: auto;
+
+    font-size: 60px;
+    text-align: center;
+    color: white;
+
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    font-size: 40px;
+}
+
+#time {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+#restart {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+#restart:hover {
+    background: #bbbbbb;
+    cursor: pointer;
+}
+
+#restart:active {
+    background-color: #344648;
+}
